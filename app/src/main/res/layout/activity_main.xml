@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="قوانین کار آفرینی روستایی"
+                    android:textColor="#fff" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/traktor2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="طرح توجیهی"
+                    android:textColor="#fff" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="وام و تسهیلات"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/ox" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="اخذ مجوز"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="آموزش"
+                    android:textColor="#fff" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/traktorzard" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="کمیته های تخصصی"
+                    android:textColor="#fff" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="ارتباط با ما"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/traktorabyari" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="ما در رسانه ها"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="گالری تصاویر"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="پشتیبانی"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="بخش نامه"
+                    android:textColor="#fff" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="نمایشگاه کارآفرینی"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/loginUsers">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/teraktor" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|right"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="ورود اعضا"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="245dp"
+                    android:background="@drawable/exit" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|left"
+                    android:layout_marginBottom="20dp"
+                    android:background="#B4000000"
+                    android:padding="9dp"
+                    android:text="خروج از برنامه"
+                    android:textColor="#fff" />
+
+            </FrameLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
