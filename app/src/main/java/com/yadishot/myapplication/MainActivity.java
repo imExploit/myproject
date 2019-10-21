@@ -15,11 +15,21 @@ import com.yadishot.myapplication.UserActions.LoginActivity;
 public class MainActivity extends AppCompatActivity {
 
     FrameLayout loginUsers;
+    androidx.appcompat.widget.Toolbar toolbar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         loginUsers = findViewById(R.id.loginUsers);
+        toolbar = findViewById(R.id.toolbar);
+
+
+        // set toolbar
+        toolbar.setTitle("سامانه کارآفرینی روستایی");
+        toolbar.setNavigationIcon(R.drawable.ic_menu);
+        setSupportActionBar(toolbar);
+
+        // set on clickListener
 
         loginUsers.setOnClickListener(new View.OnClickListener() {
             @Override

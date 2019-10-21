@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f3f3f3"
+    tools:context=".UserActions.RegisterActivity"
     android:orientation="vertical"
-    tools:context=".UserActions.LoginActivity"
+    android:background="#f3f3f3"
     android:layoutDirection="rtl">
 
     <LinearLayout
@@ -16,7 +16,7 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="350dp"
-        android:layout_height="270dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="-150dp"
         android:background="#fff"
@@ -30,7 +30,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="ورود اعضا"
+                android:text="ثبت نام"
                 android:textSize="16sp"
                 android:layout_gravity="center_horizontal"
                 android:layout_marginTop="15dp"/>
@@ -38,7 +38,7 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="نام کاربری"
+                android:hint="نام و نام خانوادگی *"
                 android:layout_marginRight="50dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="10dp"
@@ -53,7 +53,21 @@
             <com.google.android.material.textfield.TextInputLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="کلمه عبور"
+                android:hint="نام کاربری *"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="کلمه عبور *"
                 android:layout_marginRight="50dp"
                 android:layout_marginLeft="50dp"
                 android:layout_marginTop="10dp">
@@ -65,10 +79,21 @@
             </com.google.android.material.textfield.TextInputLayout>
 
 
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:text="ارسال مجدد کد فعال سازی"
+                android:textColor="#8BC34A"
+                android:textSize="12sp"
+                android:id="@+id/resendNewCode"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"/>
+
             <Button
                 android:layout_width="170dp"
                 android:layout_height="50dp"
-                android:text="ورود"
+                android:text="ثبت نام"
                 android:layout_marginTop="50dp"
                 android:background="@drawable/btn_customer"
                 android:textColor="#fff"
@@ -81,9 +106,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="حساب کاربری ندارید؟ یکی بسازید!"
+        android:text="حساب کاربری دارید؟ وارد شوید"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="20dp"
-        android:textColor="#F44336"
-        android:id="@+id/createNewAccount"/>
+        android:textColor="#8BC34A"
+        android:id="@+id/loginOldAccount"/>
 </LinearLayout>

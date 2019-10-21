@@ -5,8 +5,15 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layoutDirection="rtl">
 
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:id="@+id/toolbar"
+        android:background="#8BC34A"
+        app:titleTextColor="#fff" />
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
