@@ -41,10 +41,10 @@
                 android:hint="نام کاربری"
                 android:layout_marginRight="50dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/usernameEdt">
+                android:layout_marginTop="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/usernameEdtLog"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />
 
@@ -56,10 +56,10 @@
                 android:hint="کلمه عبور"
                 android:layout_marginRight="50dp"
                 android:layout_marginLeft="50dp"
-                android:layout_marginTop="10dp"
-                android:id="@+id/passwordEdt">
+                android:layout_marginTop="10dp">
 
                 <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/passwordEdtLog"
                     android:inputType="textWebPassword"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content" />

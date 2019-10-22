@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="app_sharedpreferencesApiCode">com.yadishot.myapplication.sharedPreferencesApi</string>
+    <string name="app_sharedpreferencesApiCode_user_status">com.yadishot.myapplication.sharedPreferencesApi_user_status</string>
+    <string name="app_sharedpreferencesApiCode_username">com.yadishot.myapplication.sharedPreferencesApi_username</string>
+    <string name="app_sharedpreferencesApiCode_user_fullname">com.yadishot.myapplication.sharedPreferencesApi_user_fullname</string>
+    <string name="app_sharedpreferencesApiCode_user_password">com.yadishot.myapplication.sharedPreferencesApi_user_password</string>
+    <string name="app_sharedpreferencesApiCode_user_id">com.yadishot.myapplication.sharedPreferencesApi_user_id</string>
+    <string name="app_sharedpreferencesApiCode_user_personWork">com.yadishot.myapplication.sharedPreferencesApi_user_personWork</string>
 </resources>

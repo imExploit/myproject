@@ -81,6 +81,8 @@ public class RegisterActivity extends AppCompatActivity {
                         Toast.makeText(RegisterActivity.this, "خطا در ارتباط با پایگاه داده", Toast.LENGTH_SHORT).show();
                     }else if (success.equals("2")){
                         Toast.makeText(RegisterActivity.this, "ثبت نام با موفقیت انجام شد", Toast.LENGTH_SHORT).show();
+                        startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
+                        finish();
                     }
                 } catch (Exception e) {
                     e.printStackTrace();
